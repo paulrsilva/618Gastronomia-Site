@@ -1,0 +1,72 @@
+0000.004 () Opened log file at time: Wed, 25 Oct 2017 14:37:14 +0000 on http://www.618gastronomia.dev
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.4.0 WP: 4.7.6 PHP: 5.5.24 (apache2handler, Darwin MacBook-Pro-de-Paulino.local 17.0.0 Darwin Kernel Version 17.0.0: Thu Aug 24 21:48:19 PDT 2017; root:xnu-4570.1.46~2/RELEASE_X86_64 x86_64) MySQL: 5.6.24 WPLANG: pt_BR Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.5.24 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 34.6M | 35M) multisite: N openssl: OpenSSL 1.0.1m 19 Mar 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 604743.2 MB
+0000.006 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.031 () Entity: db
+0000.031 () restore_backup(backup_file=backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-db.gz, type=db, info=a:0:{}, last_one=)
+0000.031 () Unpacking backup... (backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-db.gz, 0.2 Mb)
+0000.033 () Database successfully unpacked
+0000.034 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.034 () Using direct MySQL access; value of use_mysqli is: 1
+0000.055 () Max packet size: 64 MB
+0000.055 () Entering maintenance mode
+0000.055 () Ativando Modo de Manutenção&#8230;
+0000.057 () Backup of: http://www.618gastronomia.com.br/blog
+0000.078 () Content URL: http://www.618gastronomia.com.br/blog/wp-content
+0000.078 () Uploads URL: http://www.618gastronomia.com.br/blog/wp-content/uploads
+0000.078 () Old table prefix: wp_
+0000.078 () Site information: multisite=0
+0000.079 () New table prefix: wp_
+0000.083 () Processing table (MyISAM): wp_options
+0000.139 () Restoring prior UD configuration (table: wp_options; keys: 89)
+0000.259 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.261 () Processing table (MyISAM): wp_users
+0000.276 () Processing table (MyISAM): wp_usermeta
+0000.292 () Processing table (MyISAM): wp_commentmeta
+0000.308 () Processing table (MyISAM): wp_comments
+0000.323 () Processing table (MyISAM): wp_links
+0000.338 () Processing table (MyISAM): wp_postmeta
+0000.376 () Processing table (MyISAM): wp_posts
+0000.426 () Processing table (MyISAM): wp_term_relationships
+0000.439 () Processing table (MyISAM): wp_term_taxonomy
+0000.454 () Processing table (MyISAM): wp_termmeta
+0000.468 () Processing table (MyISAM): wp_terms
+0000.477 () Unlocking database and leaving maintenance mode
+0000.477 () Desativando Modo de Manutenção&#8230;
+0000.477 () Finished: lines processed: 43 in 0.44 seconds
+0000.478 () Cleaning up rubbish...
+0000.484 () Entity: plugins
+0000.484 () restore_backup(backup_file=backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:72:"/Users/paul/Documents/Websites/www.618gastronomia.dev/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.484 () Unpacking backup... (backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-plugins.zip, 9.4 Mb)
+0003.270 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.270 () Moving old data: can potentially use wp_filesystem method / -old
+0003.270 () Moving old data out of the way...
+0004.067 () Top-level entities being moved: index.php, akismet, updraftplus, hello.php
+0004.070 () Moving unpacked backup into place...
+0005.700 () Top-level entities being moved: index.php, akismet, updraftplus, jetpack, hello.php
+0005.706 () Cleaning up rubbish...
+0005.708 () Entity: themes
+0005.708 () restore_backup(backup_file=backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-themes.zip, type=themes, info=a:2:{s:4:"path";s:71:"/Users/paul/Documents/Websites/www.618gastronomia.dev/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0005.708 () Unpacking backup... (backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-themes.zip, 8.2 Mb)
+0006.445 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.446 () Moving old data: can potentially use wp_filesystem method / -old
+0006.446 () Moving old data out of the way...
+0006.550 () Top-level entities being moved: twentyseventeen, twentysixteen, twentyfifteen, index.php
+0006.551 () Moving unpacked backup into place...
+0006.837 () Top-level entities being moved: twentyseventeen, twentysixteen, twentyfifteen, index.php, Divi
+0006.839 () Cleaning up rubbish...
+0006.841 () Entity: uploads
+0006.841 () restore_backup(backup_file=backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:72:"/Users/paul/Documents/Websites/www.618gastronomia.dev/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0006.841 () Unpacking backup... (backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-uploads.zip, 18.5 Mb)
+0007.038 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.038 () Moving old data: can potentially use wp_filesystem method / -old
+0007.038 () Moving old data out of the way...
+0007.040 () Moving unpacked backup into place...
+0007.130 () Cleaning up rubbish...
+0007.132 () Entity: others
+0007.132 () restore_backup(backup_file=backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-others.zip, type=others, info=a:2:{s:4:"path";s:64:"/Users/paul/Documents/Websites/www.618gastronomia.dev/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.132 () Unpacking backup... (backup_2017-10-24-1518_618_Gastronomia_72574e60cc50-others.zip, 0.8 Mb)
+0007.171 () Cleaning up rubbish...
+0007.171 () Error: Failed to delete working directory after restoring. (/Users/paul/Documents/Websites/www.618gastronomia.dev/wp-content/upgrade/2ffa2eaf)
+0007.176 () Restore successful!
+0007.176 () Restore successful
